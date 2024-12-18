@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Test.Swag_Labs_Testing">
+        <methods>
+          <include name="Tc1"/>
+          <include name="LogoutFromApp"/>
+          <include name="LogintoApplication"/>
+          <include name="closeBrowser"/>
+          <include name="verify_logo"/>
+        </methods>
+      </class> <!-- Test.Swag_Labs_Testing -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

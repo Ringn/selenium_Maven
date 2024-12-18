@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T15:12:36 IST" name="Suite" finished-at="2024-11-25T15:12:47 IST" duration-ms="10549">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T15:12:36 IST" name="Test" finished-at="2024-11-25T15:12:47 IST" duration-ms="10549">
+      <class name="Test.Swag_Labs_Testing">
+        <test-method is-config="true" signature="Tc1()[pri:0, instance:Test.Swag_Labs_Testing@2eae8e6e]" started-at="2024-11-25T15:12:36 IST" name="Tc1" finished-at="2024-11-25T15:12:39 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1 -->
+        <test-method is-config="true" signature="LogintoApplication()[pri:0, instance:Test.Swag_Labs_Testing@2eae8e6e]" started-at="2024-11-25T15:12:39 IST" name="LogintoApplication" finished-at="2024-11-25T15:12:42 IST" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoApplication -->
+        <test-method signature="verify_logo()[pri:0, instance:Test.Swag_Labs_Testing@2eae8e6e]" started-at="2024-11-25T15:12:42 IST" name="verify_logo" finished-at="2024-11-25T15:12:42 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logo -->
+        <test-method is-config="true" signature="LogoutFromApp(org.testng.ITestResult)[pri:0, instance:Test.Swag_Labs_Testing@2eae8e6e]" started-at="2024-11-25T15:12:42 IST" name="LogoutFromApp" finished-at="2024-11-25T15:12:46 IST" duration-ms="4243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_logo status=SUCCESS method=Swag_Labs_Testing.verify_logo()[pri:0, instance:Test.Swag_Labs_Testing@2eae8e6e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.Swag_Labs_Testing@2eae8e6e]" started-at="2024-11-25T15:12:46 IST" name="closeBrowser" finished-at="2024-11-25T15:12:47 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.Swag_Labs_Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
